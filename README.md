@@ -6,7 +6,7 @@ A **Spring Boot**-powered application for managing a stock portfolio. Users can 
 
 ## **🚀 Features**
 ✔️ **User Authentication (JWT-based)** – Secure login and registration  
-✔️ **Stock Management** – Add/remove stocks to/from your portfolio  
+✔️ **Stock Management** – Add/remove stocks to/from your portfolio   
 ✔️ **Portfolio Tracking** – Monitor your total investment value  
 ✔️ **Real-time Stock Prices** – (Upcoming: API integration for live stock prices)  
 ✔️ **REST API** – Fully functional backend for integration with frontend apps  
