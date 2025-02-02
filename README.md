@@ -94,8 +94,8 @@ Contributions are welcome! Fork the repo, make changes, and submit a PR.
 
 ## **📬 Contact**
 Have questions? Connect with me:  
-📧 **Email:** your-email@example.com  
-🐦 **Twitter:** [@your_handle](https://twitter.com/wechulijacob)  
-🔗 **LinkedIn:** [Your Profile](https://linkedin.com/in/jacob-jwechuli)  
+📧 **Email:** your-wechulijac@gmail.com  
+🐦 **Twitter:** [@wechulijacob](https://twitter.com/wechulijacob)  
+🔗 **LinkedIn:** [jacob-jwechuli](https://linkedin.com/in/jacob-jwechuli)  
 
 ---
