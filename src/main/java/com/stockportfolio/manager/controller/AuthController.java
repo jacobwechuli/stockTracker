@@ -18,20 +18,18 @@ import java.util.Optional;
 public class AuthController {
     @Autowired
     private UserService userService;
-    @Autowired
-    private JwtUtil jwtUtil;
-    @Autowired
-    private PasswordEncoder passwordEncoder;
 
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestParam String username, @RequestParam String password) {
         Optional<User> user = userService.findByUsername(username);
 
-        if (user.isPresent() && passwordEncoder.matches(password, user.get().getPassword())) {
-            String token = jwtUtil.generateToken(username);
-            return ResponseEntity.ok("Bearer" + token);
+        if (user.isPresent()) {
+            if (user.get().getPassword().equals(password)) {
+            return ResponseEntity.ok("Login Successful");
         } else {
-            return ResponseEntity.status(401).body("Invalid credentials");
-        }
+                return ResponseEntity.status(401).body("Wrong password");
+            }} else {
+                return ResponseEntity.status(401).body("Invalid Credentials");
+            }
     }
 }
