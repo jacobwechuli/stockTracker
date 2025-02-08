@@ -1,5 +1,5 @@
 {
-  "name": "stock-portfolio-frontend",
+  "name": "stock-frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,14 +7,14 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:stock-portfolio-frontend": "node dist/stock-portfolio-frontend/server/server.mjs"
+    "serve:ssr:stock-frontend": "node dist/stock-frontend/server/server.mjs"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.1.0",
-    "@angular/common": "^19.1.0",
+    "@angular/common": "^19.1.5",
     "@angular/compiler": "^19.1.0",
-    "@angular/core": "^19.1.0",
+    "@angular/core": "^19.1.5",
     "@angular/forms": "^19.1.0",
     "@angular/platform-browser": "^19.1.0",
     "@angular/platform-browser-dynamic": "^19.1.0",
